@@ -10,9 +10,15 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+h1 {
+  border-bottom: 3px solid #E8CD7D;
+  padding-bottom: 8px;
+}
+
 p,
 li {
-  font-size: 1.3em;
+  font-size: 2em;
+  line-height: 1.5;
 }
 
 a {
@@ -33,4 +39,8 @@ a {
 .yellow-btn {
   background-color: #F8C93E;
   color: #071B40;
+}
+
+.green-btn {
+  background-color: #167b25;
 }
