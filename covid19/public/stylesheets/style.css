@@ -5,10 +5,32 @@ body {
   color: #FFF;
 }
 
-h2 {
+h1, h2, h3 {
   color: #E8CD7D;
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: 1.3em;
 }
 
 a {
   color: #00B7FF;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.btn {
+  height: 5em;
+  padding-top: 1.8em;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.yellow-btn {
+  background-color: #F8C93E;
+  color: #071B40;
 }
