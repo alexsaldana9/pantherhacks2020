@@ -8,6 +8,10 @@ var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var usersRouter = require('./routes/users');
 var instructionsRouter = require('./routes/instructions');
+var stepsRouter = require('./routes/steps');
+var pitchRouter = require('./routes/pitch');
+
+
 var app = express();
 
 // view engine setup
@@ -24,6 +28,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/signup', signupRouter);
 app.use('/instructions', instructionsRouter);
+app.use('/steps', stepsRouter);
+app.use('/pitch', pitchRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

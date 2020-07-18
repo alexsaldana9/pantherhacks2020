@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  div(class="container")
+    div(class="row")
+        div(class="col-sm-12")
+          h1= title
+
+          h2 Steps
+          ol
+            li Introduce yourself to the client
+            li Ask if client is interested in a grocery delivery service. Refer to section Pitch for client
+            li Once client approves. Go to the Sign Up page and fill out the form
+            li Fill out: Name, Lastname, Phone number, and upload photo of receipt
+
+    div(class="row")
+        div(class="col-sm-6")
+            a(class="btn btn-primary btn-lg btn-block" href="/instructions") Back
+
+        div(class="col-sm-6")
+            a(class="btn btn-primary btn-lg btn-block" href="/pitch") Next
