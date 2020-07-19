@@ -11,6 +11,7 @@ var instructionsRouter = require('./routes/instructions');
 var stepsRouter = require('./routes/steps');
 var pitchRouter = require('./routes/pitch');
 var improvementsRouter = require('./routes/improvements');
+var thankyouRouter = require('./routes/thankyou');
 
 
 var app = express();
@@ -32,6 +33,7 @@ app.use('/instructions', instructionsRouter);
 app.use('/steps', stepsRouter);
 app.use('/pitch', pitchRouter);
 app.use('/improvements', improvementsRouter);
+app.use('/thankyou', thankyouRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

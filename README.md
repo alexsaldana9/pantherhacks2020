@@ -1,18 +1,18 @@
-"# pantherhacks2020" 
-
-#This is COVID-19 related project
+# PantherHacks 2020 - Innovating for COVID-19
 
 ## About
 
-This project will help to limit the exposure to grocery trips of elderly citizens. A group of buyers(preferably a nonprofit) will contact the elderly and ask if they need groceries. Elders, usually buy the same items every week. By taking a photo of the receipt and saving, the buyers will know what is the grocery list looks like. 
-
+This project aims to limit the of grocery trips of elderly citizens. By limiting their trips to the grocery store, they are reducing the risks of contracting Coronavirus in an indoor space.
 
 ## To run the project
 
 `$ npm start`
 
-On the browser: http://localhost:3000/
+On the browser: http://localhost:8080/
 
+### Live website
+
+https://help-elders-pantherhacks-2020.ue.r.appspot.com/ 
 
 ### Inspiration
 
