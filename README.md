@@ -6,6 +6,8 @@ This project aims to limit the of grocery trips of elderly citizens. By limiting
 
 ## To run the project
 
+`$ npm i`
+
 `$ npm start`
 
 On the browser: http://localhost:8080/
