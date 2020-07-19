@@ -4,11 +4,14 @@
 
 ## About
 
-This project 
+This project will help to limit the exposure to grocery trips of elderly citizens. A group of buyers(preferably a nonprofit) will contact the elderly and ask if they need groceries. Elders, usually buy the same items every week. By taking a photo of the receipt and saving, the buyers will know what is the grocery list looks like. 
+
 
 ## To run the project
 
 `$ npm start`
+
+On the browser: http://localhost:3000/
 
 
 ### Inspiration
