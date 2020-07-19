@@ -44,3 +44,8 @@ a {
 .green-btn {
   background-color: #167b25;
 }
+
+.submit-btn {
+  padding-top: 0px;
+  width: 100%;
+}
